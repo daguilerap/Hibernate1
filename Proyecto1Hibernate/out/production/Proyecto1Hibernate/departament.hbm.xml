@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="Departamentos" table="departamentos">
+        <id name="numdept" column="dept_no" type="int">
+            <generator class="assigned" />
+        </id>
+        <property name="nombredept" column="dnombre" type="string"/>
+        <property name="local" column="loc" type="string"/>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,12 @@
+
+q	java:S116"URename this field "numero_dep" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë­†‹8ÃŠ¿ö.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶µÎÀ8¬ìŠ¿ö.
+T
+java:S1128"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ8—‘è¿ö.
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(©ßŠ™
+0
+java:S1220""Move this file to a named package.
+]	java:S107"AConstructor has 8 parameters, which is greater than 7 authorized.(¶µÎÀ8¬ìŠ¿ö.
+m	java:S117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Âúµ8»Ãõ¿ö.
+o	java:S100Q"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯ªıııÿÿÿÿ8»Ãõ¿ö.
+j	java:S100U"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Âúµ8»Ãõ¿ö.

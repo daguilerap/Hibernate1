@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="empleado" table="empleados">
+        <id name="id" column="emp_no" type="int">
+            <generator class="assigned" />
+        </id>
+        <property name="apellido" column="apellido" type="string"/>
+        <property name="oficio" column="oficio" type="string"/>
+        <property name="dir" column="dir" type="int"/>
+        <property name="fecha" column="fecha_alt" type="date"/>
+        <property name="salario" column="salario" type="float"/>
+        <property name="comision" column="comision" type="float"/>
+        <property name="numero_dep" column="dept_no" type="int"/>
+
+    </class>
+</hibernate-mapping>

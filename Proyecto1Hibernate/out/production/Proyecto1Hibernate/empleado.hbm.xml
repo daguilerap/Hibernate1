@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="Empleados" table="empleados" >
+        <id name="numemp" column="emp_no" type="int" >
+            <generator class="assigned"></generator>
+        </id>
+        <property name="ape" type="string" column="apellido" not-null="false" />
+        <property name="of" type="string" column="oficio" not-null="false"></property>
+        <property name="dir" type="int" column="dir" not-null="false"></property>
+        <property name="fecha" type="java.util.Date" column="fecha_alt" not-null="false"></property>
+        <property name="salar" type="float" column="salario" not-null="false"></property>
+        <property name="comis" type="float" column="comision" not-null="false"></property>
+        <property name="numdpt" type="int" column="dept_no" not-null="false"></property>
+    </class>
+</hibernate-mapping>
